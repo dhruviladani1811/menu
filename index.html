@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mayur Bhajiya</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Gujarati&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      background: linear-gradient(to right, #fff9c4, #fffde7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .container {
+      max-width: 650px;
+      width: 100%;
+      background: #ffeb3b;
+      border: 4px solid #ccc;
+      padding: 30px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      border-radius: 12px;
+      animation: fadeIn 1.5s ease-in-out;
+      text-align: center;
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    .logo img {
+      width: 200px;
+      margin-bottom: 20px;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.05);
+      }
+    }
+    .title {
+      background: #1a237e;
+      color: white;
+      padding: 15px;
+      font-weight: bold;
+      font-size: 32px; /* Increased font size */
+      border-radius: 10px;
+      margin-bottom: 25px;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+      color: #d50000;
+      font-size: 20px; /* Increased font size */
+      font-weight: bold; /* Made text bolder */
+      margin-bottom: 25px;
+    }
+    ul li {
+      margin: 10px 0;
+    }
+    ul li::before {
+      content: "\25B6";
+      color: #000;
+      margin-right: 10px;
+    }
+    .image-row {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin: 30px 0;
+    }
+    .image-row img {
+      width: 30%;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      border: 3px solid #fff176;
+      transition: transform 0.3s ease;
+    }
+    .image-row img:hover {
+      transform: scale(1.1);
+    }
+    .info-box {
+      background: #f44336;
+      color: white;
+      padding: 20px;
+      font-size: 20px; /* Increased font size */
+      border-radius: 12px;
+      margin: 20px 0;
+      font-weight: bold;
+    }
+    .footer {
+      background: #ffcc00;
+      color: #000;
+      padding: 20px;
+      font-weight: bold;
+      font-size: 20px; /* Increased font size */
+      border-radius: 12px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="logo.png" alt="Mayur Bhajiya Logo">
+    </div>
+    <div class="title">મીક્સ ભજિયા મેનૂ</div>
+    <ul>
+      <li>બટેટા વડા</li>
+      <li>લસણિયા</li>
+      <li>ભેજેલા મરચા</li>
+      <li>કૂળવડી</li>
+      <li>બટેટાની પત્રી</li>
+      <li>સમોસા</li>
+      <li>વાટીદાન</li>
+      <li>સ્પે. દહીંવડા</li>
+      <li>બટેટાની ચીપ્સ</li>
+    </ul>
+    <div class="image-row">
+      <img src="bhajiya1.jpg" alt="Bhajiya Image 1">
+      <img src="chapdi-undhiyu.jpg" alt="Bhajiya Image 2">
+      <img src="chips.jpg" alt="Bhajiya Image 3">
+    </div>
+    <div class="info-box">
+      મરચા ભરસવાની મસાલો તથા રેસીપીયલ ચટણી મળશે<br>
+      તેમજ ભજિયાનું કાચું મટિરીયલ પણ મળશે
+    </div>
+    <div class="footer">
+      દર રવિવારે તેમજ બુધવારે ચાપડી-ઉંધિયું પાર્સલ મળશે<br>
+      દર અગિયારસે પેઢા મળશે
+    </div>
+  </div>
+</body>
+</html>
